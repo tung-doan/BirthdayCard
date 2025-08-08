@@ -697,7 +697,7 @@
       <!-- Pesan Ditolak -->
       <div id="pesanditolak">
         <img id="stikerditolak" src="./assets/weee.gif" />
-        <p id="kataditolak">Mẹ hãy nói trực tiếp với con là mẹ ấn rồi nhé 🙂</p>
+        <p id="kataditolak">Mẹ nhắn với con qua zalo là mẹ ấn rồi nhé 🙂</p>
       </div>
     </div>
 
@@ -717,7 +717,6 @@
       fungsiAwal = 0;
       deffotostiker = fotostiker.src;
 
-      // Đặt tên mặc định là "Mẹ"
       window.nama = "Mẹ";
       vketikhalo = "Xin chào " + nama + "&#10084;";
 
@@ -783,8 +782,8 @@
 
       async function inipesan() {
         // Bỏ phần nhập tên, chuyển thẳng đến chúc mừng
-        await swals.fire("Xin chào Mẹ! ツ");
-        await swals.fire("Hôm nay là sinh nhật của mẹ!");
+        await swals.fire("Con chào Mẹ! ツ");
+        await swals.fire("Hôm nay là 8/8 là sinh nhật của mẹ!");
         await swals.fire("Chúc mừng sinh nhật! 🎉");
         await swals.fire("Chúc mẹ sống thọ và luôn khỏe mạnh");
         pilihwarna();
